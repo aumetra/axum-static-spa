@@ -1,0 +1,13 @@
+[package]
+name = "axum-static-spa-codegen"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.47"
+quote = "1.0.21"
+walkdir = "2.3.2"

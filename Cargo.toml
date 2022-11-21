@@ -1,0 +1,14 @@
+[package]
+name = "axum-static-spa"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+axum = { version = "0.5.17", default-features = false }
+axum-static-spa-codegen = { path = "axum-static-spa-codegen/" }
+
+[workspace]
+members = [".", "./axum-static-spa-codegen"]
+
+[features]
